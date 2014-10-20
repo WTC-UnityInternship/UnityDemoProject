@@ -19,7 +19,7 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientLight: {r: .200000003, g: .200000003, b: .200000003, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: da976b1a4f7ebb949b0f71341e4f1821, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 931987be26c9646429c56f8a4692bb81, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2925,7 +2925,7 @@ Transform:
   - {fileID: 1109760098}
   - {fileID: 1313963245}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!95 &247003122
 Animator:
   serializedVersion: 3
@@ -8860,7 +8860,7 @@ Transform:
   - {fileID: 157739773}
   - {fileID: 457419299}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!114 &687427196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14041,6 +14041,78 @@ MeshFilter:
   m_PrefabInternal: {fileID: 209723212}
   m_GameObject: {fileID: 1157406056}
   m_Mesh: {fileID: 4300128, guid: 3b7038e27fe0d41f4963edf10b9e9709, type: 3}
+--- !u!1001 &1160998228
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -28.3916645
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 21.8437424
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 5.66468334
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: minEmission
+      value: 250000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: maxEmission
+      value: 500000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: minSize
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: maxSize
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_Ellipsoid.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_Ellipsoid.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+      propertyPath: m_Ellipsoid.z
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+  m_RootGameObject: {fileID: 1535967347}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1161502881
 GameObject:
   m_ObjectHideFlags: 0
@@ -19271,6 +19343,126 @@ MeshFilter:
   m_PrefabInternal: {fileID: 209723212}
   m_GameObject: {fileID: 1535514187}
   m_Mesh: {fileID: 4300354, guid: 3b7038e27fe0d41f4963edf10b9e9709, type: 3}
+--- !u!1 &1535967347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+  m_PrefabInternal: {fileID: 1160998228}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1535967351}
+  - 15: {fileID: 1535967350}
+  - 12: {fileID: 1535967349}
+  - 26: {fileID: 1535967348}
+  m_Layer: 0
+  m_Name: Light Snow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!26 &1535967348
+ParticleRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2600000, guid: 144b203f383094d16b1f336c74c47326,
+    type: 2}
+  m_PrefabInternal: {fileID: 1160998228}
+  m_GameObject: {fileID: 1535967347}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 65836931803ab5b4fb9f60bd418f4100, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_CameraVelocityScale: 0
+  m_StretchParticles: 0
+  m_LengthScale: 0
+  m_VelocityScale: 0
+  m_MaxParticleSize: .25
+  UV Animation:
+    x Tile: 1
+    y Tile: 1
+    cycles: 1
+--- !u!12 &1535967349
+ParticleAnimator:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1200000, guid: 144b203f383094d16b1f336c74c47326,
+    type: 2}
+  m_PrefabInternal: {fileID: 1160998228}
+  m_GameObject: {fileID: 1535967347}
+  Does Animate Color?: 1
+  colorAnimation[0]:
+    serializedVersion: 2
+    rgba: 16777215
+  colorAnimation[1]:
+    serializedVersion: 2
+    rgba: 2617245695
+  colorAnimation[2]:
+    serializedVersion: 2
+    rgba: 4294967295
+  colorAnimation[3]:
+    serializedVersion: 2
+    rgba: 3036676095
+  colorAnimation[4]:
+    serializedVersion: 2
+    rgba: 184549375
+  worldRotationAxis: {x: 0, y: 0, z: 0}
+  localRotationAxis: {x: 0, y: 0, z: 0}
+  sizeGrow: 0
+  rndForce: {x: 1, y: 0, z: 1}
+  force: {x: 0, y: -1.10000002, z: 0}
+  damping: 1
+  stopSimulation: 0
+  autodestruct: 0
+--- !u!15 &1535967350
+EllipsoidParticleEmitter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1500000, guid: 144b203f383094d16b1f336c74c47326,
+    type: 2}
+  m_PrefabInternal: {fileID: 1160998228}
+  m_GameObject: {fileID: 1535967347}
+  serializedVersion: 2
+  m_Enabled: 1
+  m_Emit: 1
+  minSize: .200000003
+  maxSize: .200000003
+  minEnergy: 5
+  maxEnergy: 10
+  minEmission: 250000
+  maxEmission: 500000
+  worldVelocity: {x: 0, y: 0, z: 0}
+  localVelocity: {x: 0, y: 0, z: 0}
+  rndVelocity: {x: 2, y: .5, z: 2}
+  emitterVelocityScale: .0500000007
+  tangentVelocity: {x: 0, y: 0, z: 0}
+  angularVelocity: 90
+  rndAngularVelocity: 1
+  rndRotation: 1
+  Simulate in Worldspace?: 1
+  m_OneShot: 0
+  m_Ellipsoid: {x: 100, y: 1, z: 100}
+  m_MinEmitterRange: 0
+--- !u!4 &1535967351
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 144b203f383094d16b1f336c74c47326, type: 2}
+  m_PrefabInternal: {fileID: 1160998228}
+  m_GameObject: {fileID: 1535967347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.3916645, y: 21.8437424, z: 5.66468334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1 &1536389827
 GameObject:
   m_ObjectHideFlags: 0
@@ -19477,7 +19669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1556305240
 GameObject:
   m_ObjectHideFlags: 0
@@ -22771,7 +22963,7 @@ GameObject:
   - 64: {fileID: 1856245312}
   - 23: {fileID: 1856245311}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: PlaneSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22789,7 +22981,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a3af7997b49850240babd14b4b30737c, type: 2}
+  - {fileID: 2100000, guid: f6dbc98f371164f989ae262c8bd9382f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -22828,7 +23020,7 @@ Transform:
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1859725806
 GameObject:
   m_ObjectHideFlags: 0
